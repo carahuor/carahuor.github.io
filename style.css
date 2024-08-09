@@ -1,0 +1,136 @@
+/*GENERAL*/
+
+/*import Merriweather and Lato fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Remove default margin and padding*/
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*TEXT*/
+h1, h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b416fff;
+  padding-top: 1rem; /*rem is a consistent unit*/
+}
+
+h3, p, button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b416fff; 
+}
+
+/*NAVIGATION BAR*/
+nav, .nav-list {
+  display: flex;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: space-around; /*distribute elements*/
+  align-items: center; /*align vertically*/
+  height: 10vh;
+  background-color: #2b416fff;
+  
+}
+
+.nav-list {
+  list-style-type: none;
+  overflow: hidden;
+  gap: 2rem;
+  font-size: 1.17rem;
+}
+
+.page-name {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-name:hover {
+  color: #d0e4ffff;
+}
+
+/*BUTTONS*/
+button {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0;
+  border: 0.1rem solid #2b416fff;
+  transition: 0.3s; 
+  color: #2b416fff;
+  background: #d0e4ffff;
+}
+
+button:hover {
+  background: #2b416fff;
+  color: #d0e4ffff;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.17rem;
+  height: 10vh;
+  background-color: #d0e4ffff;
+  display: flex;
+  justify-content: center; /*align horizontally*/
+  align-items: center; /*align vertically*/
+  gap: 2rem;
+}
+
+footer a {
+  color: #2b416fff;
+  text-decoration: none;
+}
+
+footer a: hover {
+  cursor: pointer;
+}
+
+/*HOME PAGE*/
+#hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  background: #d0e4ffff;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.skill-name {
+  border: 0.1rem solid #2b416fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 20%; /*flex-basis (initial size) set as % of skills-container*/
+}
+
+
+
+
+
+
+
+
+
