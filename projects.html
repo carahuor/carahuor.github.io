@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cara Huor</title>
+    <!--characters that can be used in HTML document-->
+    <meta charset="utf-8" />
+    <!--page made to match size of device screen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--link to stylesheet-->
+    <link rel="stylesheet" href="/css/style.css" />
+
+  <!--link to media queries-->
+    <link rel="mediaqueries" href="/css/mediaqueries.css" />
+
+    <!--link to JavaScript file-->
+    <script src="/script.js" defer></script>
+
+  </head>
+
+  <body>
+    <!--desktop navigation bar-->
+    <nav class="desktop-nav">
+      <ul class="nav-list">
+        <li>
+          <a class="page-name" href="index.html">CH</a>
+        </li>
+        <li>
+          <a class="page-name" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <div id="title-section">
+          <h1>Projects</h1>
+          <h3>They're Interactive!</h3>
+      </div>
+    </header>
+
+    <main>
+      <div id="projects-section">
+        <div class="projects-container">
+          <div class="project"> 
+              <h3 class="project-name">Robot Project</h3>
+              <video width = "100%" height = "100%" controls>
+                  <source src="https://drive.google.com/file/d/1TQmXcp7W_guidvKH2Il8jVGAnodAHKDp/view">
+              </video>
+          </div>
+          <div class="project">
+            <h3 class="project-name">Portfolio Website</h3>
+            <iframe src="https://carahuor.github.io/" title="Portfolio Website Demo" width = "100%" height="300" frameBorder="none">
+            </iframe>
+            <button class="project-button" onclick="href='https://github.com/carahuor/carahuor.github.io'">GitHub</button>
+          </div>
+          <div class="project">
+            <h3 class="project-name">Mars Game</h3>
+            <div id="mars-game-demo">
+              <iframe src="https://carahuor.github.io/mars-game/" title="Mars Game Demo" width = "400" height="400" frameBorder="none">
+              </iframe>
+            </div>
+            <button class="project-button" onclick="href='https://github.com/carahuor/carahuor.github.io'">GitHub</button>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <!--page footer-->
+    <footer>
+      <a href="https://linkedin.com/in/carahuor">LinkedIn</a>
+      <a href="https://github.com/carahuor">GitHub</a>
+    </footer>
+  </body>
+  
+</html>

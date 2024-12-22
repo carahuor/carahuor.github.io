@@ -153,6 +153,24 @@ footer a:hover {
   flex: 20%; /*flex-basis (initial size) set as % of skills-container*/
 }
 
+/*PROJECTS PAGE*/
+
+.project {
+  border: 0.1rem solid #2b416fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 1.5rem;
+}
+
+.project-name {
+  margin-bottom: 0.5rem;
+}
+
+.project-button {
+  width: 30%;
+}
 
 
 
