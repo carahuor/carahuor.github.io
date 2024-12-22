@@ -127,6 +127,15 @@ footer a:hover {
   background-color: rgba(208, 228, 255, 0); /*Not Layer Opacity of Text*/
 }
 
+#summary-section {
+  background-color: #2b416fff;
+  padding: 2rem;
+}
+
+#summary-text {
+  color: #ffffff;
+}
+
 .skills-container {
   display: flex;
   flex-direction: row;
