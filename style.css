@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /*Remove default margin and padding*/
-*{
+* {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -70,7 +70,7 @@ button {
   background: #d0e4ffff;
 }
 
-button:hover {
+button:hover, #hero-button:hover {
   background: #2b416fff;
   color: #d0e4ffff;
   cursor: pointer;
@@ -95,18 +95,32 @@ footer a {
   text-decoration: none;
 }
 
-footer a: hover {
+footer a:hover {
   cursor: pointer;
 }
 
 /*HOME PAGE*/
-#hero {
+#hero-section {
   height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
-  background: #d0e4ffff;
+  background-image: url("./assets/blue-hills.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #d0e4ffff;
+}
+
+#hero-text {
+  border: 0.1rem solid #2b416fff;
+  border-radius: 1rem;
+  background-color: rgba(208, 228, 255, 0.5); /*Change Opacity*/
+  padding: 3%;
+}
+
+#hero-button {
+  background-color: rgba(208, 228, 255, 0); /*Not Layer Opacity of Hero-Text*/
 }
 
 .skills-container {
