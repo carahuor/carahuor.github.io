@@ -4,4 +4,4 @@ Work in Progress
 
 Attributions
 Home Page 
-Blue Mountains: [Alessio Soggetti on Unsplash](https://unsplash.com/photos/hills-covered-wit-fogs-44oFcp01cVU)
+Blue Hills: [Alessio Soggetti on Unsplash](https://unsplash.com/photos/hills-covered-wit-fogs-44oFcp01cVU)
