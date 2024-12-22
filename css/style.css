@@ -173,7 +173,18 @@ footer a:hover {
 }
 
 .robot-img {
-  width: 100%;
+  margin: auto; /*Center image*/
+  max-width: 100%;
+  display: none;
+  cursor: pointer;
+}
+
+.robot-img-vertical {
+  max-height: 21rem;
+}
+
+.robot-text {
+  margin-top: 0.5rem;
 }
 
 
