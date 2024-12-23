@@ -179,9 +179,12 @@ footer a:hover {
 
 .robot-img {
   margin: auto; /*Center image*/
-  max-width: 100%;
   display: none;
   cursor: pointer;
+}
+
+.robot-img-horizontal {
+  width: 100%;
 }
 
 .robot-img-vertical {
@@ -191,7 +194,6 @@ footer a:hover {
 .robot-text {
   margin-top: 0.5rem;
 }
-
 
 
 

@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+    #mars-game-iframe {
+        width: 100%;
+    }
+}
