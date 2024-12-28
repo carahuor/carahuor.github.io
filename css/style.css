@@ -31,6 +31,23 @@ p {
   font-size: 1.2em;
 }
 
+/*BUTTONS*/
+button {
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0;
+  border: 0.1rem solid #2b416fff;
+  transition: 0.3s; 
+  color: #2b416fff;
+  background: #d0e4ffff;
+}
+
+button:hover, #hero-button:hover, #not-found-button:hover {
+  background: #2b416fff;
+  color: #d0e4ffff;
+  cursor: pointer;
+}
+
 /*NAVIGATION BAR*/
 nav, .nav-list {
   display: flex;
@@ -83,23 +100,6 @@ footer a {
 }
 
 footer a:hover {
-  cursor: pointer;
-}
-
-/*BUTTONS*/
-button {
-  margin: 0.5rem;
-  padding: 0.8rem;
-  border-radius: 0;
-  border: 0.1rem solid #2b416fff;
-  transition: 0.3s; 
-  color: #2b416fff;
-  background: #d0e4ffff;
-}
-
-button:hover, #hero-button:hover, #not-found-button:hover {
-  background: #2b416fff;
-  color: #d0e4ffff;
   cursor: pointer;
 }
 
@@ -165,7 +165,6 @@ button:hover, #hero-button:hover, #not-found-button:hover {
 }
 
 /*PROJECTS PAGE*/
-
 .project {
   border: 0.1rem solid #2b416fff;
   border-radius: 1rem;
