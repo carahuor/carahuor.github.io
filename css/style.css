@@ -182,6 +182,7 @@ footer a:hover {
   display: none;
   cursor: pointer;
   max-height: 30rem;
+  max-width: 100%;
 }
 
 .robot-img-horizontal {
