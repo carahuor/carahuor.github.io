@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Work in Progress
+Live Demo: https://carahuor.github.io/
 
 ## Attributions
 
