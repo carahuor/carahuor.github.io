@@ -9,21 +9,17 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 /*TEXT*/
 h1, h2 {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
   color: #2b416fff;
   padding-top: 1rem; /*rem is a consistent unit*/
 }
 
 h3, p, button {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #2b416fff; 
 }
 
@@ -54,21 +50,17 @@ nav, .nav-list {
 }
 
 nav {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   justify-content: space-around; /*distribute elements*/
   align-items: center; /*align vertically*/
   height: 10vh;
   background-color: #2b416fff;
-  
 }
 
 .nav-list {
   list-style-type: none;
   overflow: hidden;
   gap: 2rem;
-  font-size: 1.17rem;
+  font-size: 1.2rem;
 }
 
 .page-name {
@@ -82,10 +74,7 @@ nav {
 
 /*FOOTER*/
 footer {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.17rem;
+  font-size: 1.2rem;
   height: 10vh;
   background-color: #d0e4ffff;
   display: flex;
